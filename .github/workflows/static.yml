@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './loqsy-web'
+          path: './quinaxis-web'
 
       - name: Deploy to GitHub Pages
         id: deployment
